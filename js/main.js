@@ -19,7 +19,7 @@ document.getElementById("input-char").onkeypress=function(tomato){
 // Create a tree function that should build a pine tree out of a character in the Chrome dev tools console.
 function tree(treeObject) {
 	//debugger for tree function
-	debugger
+	//debugger
 	// 1. A key that specifies the height of the pine tree.
 	// 2. The value for the height of the tree should be from user input in a <input type="text"> field in the DOM.
     var treeObject = {
