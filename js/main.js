@@ -19,7 +19,7 @@ document.getElementById("input-char").onkeypress=function(tomato){
 // Create a tree function that should build a pine tree out of a character in the Chrome dev tools console.
 function tree(treeObject) {
 	//debugger for tree function
-	//debugger
+	debugger
 	// 1. A key that specifies the height of the pine tree.
 	// 2. The value for the height of the tree should be from user input in a <input type="text"> field in the DOM.
     var treeObject = {
@@ -43,7 +43,7 @@ console.log("Fröhliche Weihnachten!");
         var space = " "; //number of spaces in each line to center the tree
         var spaceCount = parseInt(treeObject.inputHeight); //
         var charCount = 1;
-        for (var i = 0; i < spaceCount; i++) {
+        for (var i = 0; i < treeObject.inputHeight; i++) {
             treeString += space.repeat(spaceCount);
             treeString += treeObject.inputChar.repeat(charCount);
             //display tree in console
