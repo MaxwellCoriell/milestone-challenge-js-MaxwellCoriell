@@ -1,4 +1,4 @@
-// Listen for "Grow Your Tree" button click and run function tree
+// Listen for "Grow Your Tree" button click and run function "tree"
 document.getElementById("submit-button").addEventListener("click", tree);
 
 // Return key === "Grow Your Tree" button click
@@ -14,6 +14,14 @@ document.getElementById("input-char").onkeypress=function(tomato){
         tomato.preventDefault();
         var pressedEnter = document.getElementById("submit-button").click();
     }
+}
+
+// Listen for "Clear" button click and run function "clear"
+document.getElementById("reset-button").addEventListener("click", reset);
+
+// function that clears contents of inputs on click of the clear button
+function reset() {
+    document.getElementById("text-inputs").reset();
 }
 
 // Create a tree function that should build a pine tree out of a character in the Chrome dev tools console.
